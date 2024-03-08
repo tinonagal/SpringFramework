@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.0.xsd">
+
+<bean class="com.Employee" id="emp1" scope="singleton"></bean>
+
+<bean class="com.Employee" id="emp2" scope="prototype"></bean>
+
+<bean class="com.Employee" id="emp3">
+<constructor-arg value="100"></constructor-arg>
+<constructor-arg value="Steven"></constructor-arg>
+<constructor-arg value="12000"></constructor-arg>
+</bean>
+
+<bean class="com.Employee" id="emp4">
+<property name="id" value="101"></property>
+<property name="name" value="Lex"></property>
+<property name="salary" value="15000"></property>
+</bean>
+
+<bean class="com.Address" id="add">
+<property name="city" value="Otago"></property>
+<property name="state" value="Queenstown"></property>
+</bean>
+
+<bean class="com.Employee" id="employee" >
+<property name="id" value="102"></property>
+<property name="name" value="Tino"></property>
+<property name="salary" value="34000"></property>
+<property name="address" ref="add"></property>
+</bean>
+
+</beans>
+
+
