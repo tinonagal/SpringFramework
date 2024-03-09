@@ -2,6 +2,9 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="/Users/celestino.nagal/Desktop/SpringFramework/SpringWithDataSourceFeature"/>
+			<item value="/Users/celestino.nagal/Desktop/SpringFramework/SpringDIUsingAnnotation"/>
+			<item value="/Users/celestino.nagal/Desktop/SpringFramework/SpringDIUsingXML"/>
 			<item value="/Users/celestino.nagal/Desktop/SpringFramework"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -45,11 +48,15 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="myproject"/>
 			<item value="myspringproject"/>
+			<item value="com"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="SpringFrameworkWithJdbcTemplate"/>
+			<item value="SpringWithDataSourceFeature"/>
 			<item value="SpringDIUsingAnnotation"/>
 			<item value="SpringDIUsingXML"/>
 		</list>

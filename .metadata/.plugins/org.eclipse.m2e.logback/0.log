@@ -678,3 +678,5 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact mysql:mysql-c
 2024-03-10 09:35:51,862 [Worker-266: Launching DemoTest (3)] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
 2024-03-10 09:36:34,584 [Worker-257: Launching DemoTest (3)] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
 2024-03-10 09:36:34,587 [Worker-257: Launching DemoTest (3)] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-03-10 10:23:23,054 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped oejs.Server@6c4a705a{STOPPING}[12.0.3,sto=0]
+2024-03-10 10:23:23,066 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@6e460b8f{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
