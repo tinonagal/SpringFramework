@@ -613,3 +613,68 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact mysql:mysql-c
 2024-03-09 01:19:48,280 [Worker-136: Launching DemoTest (2)] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
 2024-03-09 01:20:34,231 [Worker-153: Launching DemoTest (2)] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
 2024-03-09 01:20:34,242 [Worker-153: Launching DemoTest (2)] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-03-09 17:28:36,940 [Worker-167: Creating project "SpringFrameworkWithJdbcTemplate"] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: myproject:SpringFrameworkWithJdbcTemplate:0.0.1-SNAPSHOT @ /Users/celestino.nagal/Desktop/SpringFramework/SpringFrameworkWithJdbcTemplate/pom.xml.
+2024-03-09 17:28:37,066 [Worker-167: Creating project "SpringFrameworkWithJdbcTemplate"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringFrameworkWithJdbcTemplate/src/main/java
+2024-03-09 17:28:37,067 [Worker-167: Creating project "SpringFrameworkWithJdbcTemplate"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringFrameworkWithJdbcTemplate/src/main/resources
+2024-03-09 17:28:37,068 [Worker-167: Creating project "SpringFrameworkWithJdbcTemplate"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringFrameworkWithJdbcTemplate/src/test/java
+2024-03-09 17:28:37,068 [Worker-167: Creating project "SpringFrameworkWithJdbcTemplate"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringFrameworkWithJdbcTemplate/src/test/resources
+2024-03-09 17:28:37,589 [Worker-168: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-03-09 17:28:37,610 [Worker-168: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-03-09 17:28:37,619 [Worker-168: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-03-09 17:28:37,621 [Worker-168: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-03-09 17:31:05,129 [Worker-169: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: myproject:SpringFrameworkWithJdbcTemplate:0.0.1-SNAPSHOT @ /Users/celestino.nagal/Desktop/SpringFramework/SpringFrameworkWithJdbcTemplate/pom.xml.
+2024-03-09 17:31:05,379 [Worker-169: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-03-09 17:31:05,383 [Worker-169: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-03-09 17:31:13,107 [Worker-173: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-03-09 17:31:13,503 [Worker-173: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: myproject:SpringFrameworkWithJdbcTemplate:0.0.1-SNAPSHOT @ /Users/celestino.nagal/Desktop/SpringFramework/SpringFrameworkWithJdbcTemplate/pom.xml.
+2024-03-09 17:31:13,559 [Worker-173: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com:SpringDIUsingAnnotation:0.0.1-SNAPSHOT @ /Users/celestino.nagal/Desktop/SpringFramework/SpringDIUsingAnnotation/pom.xml.
+2024-03-09 17:31:13,583 [Worker-173: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: myspringproject:SpringWithDataSourceFeature:0.0.1-SNAPSHOT @ /Users/celestino.nagal/Desktop/SpringFramework/SpringWithDataSourceFeature/pom.xml.
+2024-03-09 17:31:13,934 [Worker-173: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringFrameworkWithJdbcTemplate/src/main/java
+2024-03-09 17:31:13,934 [Worker-173: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringFrameworkWithJdbcTemplate/src/main/resources
+2024-03-09 17:31:13,936 [Worker-173: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringFrameworkWithJdbcTemplate/src/test/java
+2024-03-09 17:31:13,936 [Worker-173: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringFrameworkWithJdbcTemplate/src/test/resources
+2024-03-09 17:31:14,085 [Worker-173: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2024-03-09 17:31:14,227 [Worker-169: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-03-09 17:31:14,232 [Worker-169: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-03-09 17:35:27,393 [Worker-173: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-03-09 17:35:27,396 [Worker-173: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-03-09 17:45:07,397 [Worker-180: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-03-09 17:45:07,407 [Worker-180: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-03-09 17:49:25,260 [Worker-183: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-03-09 17:49:25,268 [Worker-183: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-03-09 18:14:03,812 [Worker-193: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-03-09 18:14:03,826 [Worker-193: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-03-09 18:15:36,885 [Worker-190: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-03-09 18:15:36,891 [Worker-190: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-03-09 18:21:35,247 [Worker-191: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-03-09 18:21:35,259 [Worker-191: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-03-09 18:22:02,924 [Worker-193: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-03-09 18:22:02,928 [Worker-193: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-03-09 18:22:07,846 [Worker-191: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-03-09 18:22:07,848 [Worker-191: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-03-09 18:22:36,491 [Worker-193: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-03-09 18:22:36,494 [Worker-193: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-03-09 18:29:38,680 [Worker-198: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-03-09 18:29:38,696 [Worker-198: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-03-09 21:57:22,765 [Worker-191: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-03-09 21:57:22,773 [Worker-191: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-03-09 22:18:58,156 [Worker-191: Launching DemoTest (3)] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-03-09 22:18:58,167 [Worker-191: Launching DemoTest (3)] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-03-09 22:20:07,659 [Worker-202: Launching DemoTest (3)] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-03-09 22:20:07,662 [Worker-202: Launching DemoTest (3)] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-03-09 22:23:16,754 [Worker-206: Launching DemoTest (3)] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-03-09 22:23:16,761 [Worker-206: Launching DemoTest (3)] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-03-09 22:27:14,365 [Worker-211: Launching DemoTest (3)] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-03-09 22:27:14,369 [Worker-211: Launching DemoTest (3)] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-03-09 22:33:17,349 [Worker-213: Launching DemoTest (3)] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-03-09 22:33:17,355 [Worker-213: Launching DemoTest (3)] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-03-09 23:28:45,920 [Worker-227: Launching DemoTest (3)] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-03-09 23:28:45,925 [Worker-227: Launching DemoTest (3)] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-03-10 09:33:29,395 [Worker-265: Launching DemoTest (3)] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-03-10 09:33:29,406 [Worker-265: Launching DemoTest (3)] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-03-10 09:34:13,700 [Worker-257: Launching DemoTest (3)] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-03-10 09:34:13,705 [Worker-257: Launching DemoTest (3)] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-03-10 09:35:51,847 [Worker-266: Launching DemoTest (3)] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-03-10 09:35:51,862 [Worker-266: Launching DemoTest (3)] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-03-10 09:36:34,584 [Worker-257: Launching DemoTest (3)] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-03-10 09:36:34,587 [Worker-257: Launching DemoTest (3)] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
