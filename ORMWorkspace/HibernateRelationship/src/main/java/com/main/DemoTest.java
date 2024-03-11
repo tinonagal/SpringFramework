@@ -101,12 +101,21 @@ public class DemoTest {
 //	
 		
 		//HQL Join
-		TypedQuery query = session.createQuery("select t.tech,t.tname,s.sname from Student s, Trainer t where t.tid=s.tsid");
-		List<Object[]> list = query.getResultList();
-		Iterator<Object[]> li = list.iterator();
+//		TypedQuery query = session.createQuery("select t.tech,t.tname,s.sname from Student s, Trainer t where t.tid=s.tsid");
+//		List<Object[]> list = query.getResultList();
+//		Iterator<Object[]> li = list.iterator();
+//		while(li.hasNext()) {
+//			Object obj[]=li.next();
+//			System.out.println("Tech "+obj[0]+" Traner Name "+obj[1]+" Student Name "+obj[2]);
+//		}
+		
+		//W/o Join also we can get Student from trainer entity
+		TypedQuery qry = session.createQuery("select t from Trainer t");
+		List<Trainer> trainers = qry.getResultList();
+		Iterator<Trainer> li = trainers.iterator();
 		while(li.hasNext()) {
-			Object obj[]=li.next();
-			System.out.println("Tech "+obj[0]+" Traner Name "+obj[1]+" Student Name "+obj[2]);
+			Trainer t = li.next();
+			System.out.println(t);
 		}
 	}
 
