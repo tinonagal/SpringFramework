@@ -60,7 +60,7 @@ public class DemoTest {
 		//Retrieve more than one records using JPQL
 		Query qry = manager.createQuery("select emp1 from Employee emp1");
 		List<Employee> listOfEmp = qry.getResultList();
-			System.out.println(listOfEmp);
+			System.out.println("Number of records are "+listOfEmp.size());
 		}
 		
 	}

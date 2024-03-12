@@ -1,6 +1,0 @@
-INDEX VERSION 1.134+/Users/celestino.nagal/Desktop/SpringFramework/.metadata/.plugins/org.eclipse.jdt.core
-785707830.index
-1865797976.index
-2164163887.index
-4079767066.index
-8060169.index
