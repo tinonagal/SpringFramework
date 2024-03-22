@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Insert title here</title>
+</head>
+<body>
+<h2>All Product Details</h2>
+<table border="1">
+	<tr>
+		<th>PId</th>
+		<th>PName</th>
+		<th>Price</th>
+		<th>Qty</th>
+	</tr>
+	<tr th:each="product: ${products}">
+		<td th:text="${product.pid}"></td>
+		<td th:text="${product.pname}"></td>
+		<td th:text="${product.price}"></td>
+		<td th:text="${product.qty}"></td>
+	</tr>
+</table>
+</body>
+</html>
