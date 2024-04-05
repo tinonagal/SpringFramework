@@ -38,6 +38,7 @@ public class ProductController {
 		return "viewProducts";
 		
 	}
+	
 	@RequestMapping(value = "deleteProduct",method = RequestMethod.GET)
 	public String deleteProductPage() {
 		return "deleteProduct";
