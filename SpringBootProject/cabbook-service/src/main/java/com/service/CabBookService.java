@@ -33,7 +33,8 @@ public class CabBookService {
 		if(op.isPresent()) {
 			CabBook cb = op.get();
 			String tripid = cb.getTripid();
-			String res = restTemplate.getForObject("http://localhost:8484/cabfare/findAmountbyTripid/"+tripid, String.class);
+			//String res = restTemplate.getForObject("http://localhost:8484/cabfare/findAmountbyTripid/"+tripid, String.class);
+			String res = restTemplate.getForObject("CABFARE-SERVICE/cabfare/findAmountbyTripid/"+tripid, String.class);
 			return res;
 		}else {
 			return "CabBook Amount do not exist";

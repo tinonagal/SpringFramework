@@ -1,4 +1,4 @@
-package com.entity;
+package com.bean;
 
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
@@ -11,7 +11,7 @@ import jakarta.persistence.Id;
 @Entity
 @Component
 @Scope("prototype")
-public class CabBook {
+public class CabBooking {
 @Id
 @GeneratedValue(strategy = GenerationType.IDENTITY)
 private int cbid;
@@ -37,7 +37,7 @@ public void setTripid(String tripid) {
 }
 @Override
 public String toString() {
-	return "CabBook [cbid=" + cbid + ", cname=" + cname + ", tripid=" + tripid + "]";
+	return "CabBooking [cbid=" + cbid + ", cname=" + cname + ", tripid=" + tripid + "]";
 }
 
 }

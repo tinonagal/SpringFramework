@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Insert title here</title>
+</head>
+<body>
+<strong th:field="*{msg}"></strong>
+<h2>Cab Booking</h2>
+<form action="#" th:action="@{storeCabBooking}" method="post" th:object="${cabbooking}">
+	<label>CName</label>
+	<input type="text" th:field="{cname}"/><br/>
+	<label>TripId</label>
+	<input type="text" th:field="{tripid}"/><br/>
+	<select name="tripid">
+		<option value="Home>Work">Home to Work</option>
+		<option value="Work>Home">Work to Home</option>
+		<option value="Home>Shops">Home to Shops</option>
+		<option value="Shops>Home">Shops to Home</option>
+		<option value="Work>Shops">Work to Shops</option>
+		<option value="Shops>Work">Shops to Work</option>
+	</select><br/>
+	<input type="submit" value="add Cab Booking"/>
+	<input type="reset" value="reset"/>
+</form>
+</body>
+</html>
