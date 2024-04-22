@@ -6,8 +6,18 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h2>Cab Booking Management Solution</h2>
-<a href="/cabbook/createCabBook">Add Cab Booking</a> | 
-<a href="/cabbook/findAllCabBook">Show All Cab Booking</a>
+<h2>All Cab Bookings</h2>
+<table border="1">
+	<tr>
+		<th>CBid</th>
+		<th>CName</th>
+		<th>TripId</th>
+	</tr>
+	<tr th:each="cabbooking: ${cabbookings}">
+		<td th:text="${cabbooking.cbid}"></td>
+		<td th:text="${cabbooking.cname}"></td>
+		<td th:text="${cabbooking.tripid}"></td>
+	</tr>
+</table>
 </body>
 </html>

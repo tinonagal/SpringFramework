@@ -17,7 +17,7 @@ public class CabbookServiceApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(CabbookServiceApplication.class, args);
-		System.err.println("CabBok is up on port 8585");
+		System.err.println("CabBook is up on port 8686");
 	}
 	@Bean
 	@LoadBalanced

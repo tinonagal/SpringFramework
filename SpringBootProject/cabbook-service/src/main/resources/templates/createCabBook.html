@@ -8,7 +8,7 @@
 <body>
 <strong th:field="*{msg}"></strong>
 <h2>Create Cab Booking</h2>
-<form action="#" th:action="@{/storeCabBooking}" method="post" th:object="${cabbooking}">
+<form action="#" th:action="@{/cabbook/storeCabBook}" method="post" th:object="${cabbook}">
 	<label>CName</label>
 	<input type="text" th:field="*{cname}"/><br/>
 	<label for="tripid">TripId</label>

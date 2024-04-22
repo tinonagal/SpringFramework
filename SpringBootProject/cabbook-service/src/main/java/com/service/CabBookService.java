@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
+
 import com.entity.CabBook;
 import com.repository.CabBookRepository;
 
@@ -24,6 +25,7 @@ public class CabBookService {
 		return "Cab Booking created successfully";
 	}
 	
+	
 	public List<CabBook> findAllCabBook(){
 		return cabbookRepository.findAll();
 	}
@@ -33,8 +35,8 @@ public class CabBookService {
 		if(op.isPresent()) {
 			CabBook cb = op.get();
 			String tripid = cb.getTripid();
-			//String res = restTemplate.getForObject("http://localhost:8484/cabfare/findAmountbyTripid/"+tripid, String.class);
-			String res = restTemplate.getForObject("CABFARE-SERVICE/cabfare/findAmountbyTripid/"+tripid, String.class);
+			String res = restTemplate.getForObject("http://localhost:8484/cabfare/findAmountbyTripid/"+tripid, String.class);
+			//String res = restTemplate.getForObject("CABFARE-SERVICE/cabfare/findAmountbyTripid/"+tripid, String.class);
 			return res;
 		}else {
 			return "CabBook Amount do not exist";
